@@ -1,5 +1,5 @@
 
-	var canvas = document.querySelector("#scene1"),
+	var canvas = document.querySelector("#scene"),
 		ctx = canvas.getContext("2d"),
 		particles = [],
 		amount = 0,
