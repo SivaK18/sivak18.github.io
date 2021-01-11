@@ -85,7 +85,7 @@ function initScene(){
 
   ctx.font = "bold "+(ww/10)+"px sans-serif";
   ctx.textAlign = "center";
-  ctx.fillText(copy.value, ww/2, wh/2);
+  ctx.fillText("Siva Kailash", ww/2, wh/2);
 
   var data  = ctx.getImageData(0, 0, ww, wh).data;
   ctx.clearRect(0, 0, canvas.width, canvas.height);
